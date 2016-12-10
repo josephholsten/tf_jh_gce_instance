@@ -6,7 +6,7 @@ resource "google_compute_instance" "server-instance" {
   machine_type = "${var.instance_flavor}"
 
   disk {
-    image = "ubuntu-1404-trusty-v20151113"
+    image = "${var.disk_image}"
     size  = "${var.disk_size}"
     type  = "${var.disk_type}"
   }

@@ -5,6 +5,12 @@ variable "instance_count" {
 variable "instance_flavor" {
   default = "f1-micro"
 }
+
+variable "disk_image" {
+  description = "image to boot from"
+  default     = "ubuntu-1404-trusty-v20151113"
+}
+
 variable "disk_size" {
   description = "storage disk size in GiB"
   default     = "20"
