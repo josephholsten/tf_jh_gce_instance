@@ -8,7 +8,7 @@ variable "instance_flavor" {
 
 variable "disk_image" {
   description = "image to boot from"
-  default     = "ubuntu-1404-trusty-v20151113"
+  default     = "ubuntu-1404-trusty-v20161205"
 }
 
 variable "disk_size" {
