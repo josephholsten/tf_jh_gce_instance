@@ -12,7 +12,7 @@ resource "google_compute_instance" "server-instance" {
   }
 
   network_interface {
-    network = "default"
+    network = "${var.network}"
 
     access_config {
       #   nat_ip = ""

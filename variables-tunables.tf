@@ -20,3 +20,8 @@ variable "disk_type" {
   description = "storage disk type"
   default     = "pd-standard"
 }
+
+variable "network" {
+  description = "network the instance should belong to"
+  default     = "default"
+}
